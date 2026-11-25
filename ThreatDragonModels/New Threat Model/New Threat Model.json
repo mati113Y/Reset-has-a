@@ -563,7 +563,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Serwer backend"
+                "text": "API backend"
               },
               "body": {
                 "stroke": "#333333",
@@ -659,7 +659,7 @@
             "zIndex": 11,
             "data": {
               "type": "tm.Process",
-              "name": "Serwer backend",
+              "name": "API backend",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -670,13 +670,6 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
