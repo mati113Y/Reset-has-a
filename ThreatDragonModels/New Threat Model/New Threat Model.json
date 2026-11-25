@@ -304,7 +304,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Znajdź użytkownika",
+              "name": "Znajdź \nużytkownika",
               "description": "Wyszukanie danych w bazie ",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -318,7 +318,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Znajdź użytkownika"
+              "Znajdź \nużytkownika"
             ],
             "id": "ecad6bd3-ac02-4268-8049-ece804bcdcb8",
             "source": {
@@ -551,6 +551,81 @@
                 "y": 390
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Generowanie resetu \nhasła",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Generowanie resetu \nhasła"
+            ],
+            "id": "08fb5b71-6632-47c4-a4bf-62f43ef8c82f",
+            "source": {
+              "cell": "9b41d39c-a061-43d4-97df-1bf6597772d5",
+              "port": "1695ff1e-e75b-4904-b296-715db417879d"
+            },
+            "target": {
+              "cell": "4b47f9ca-f291-499b-8af7-64c7d0ff2860",
+              "port": "18e9a891-27b5-4157-bca0-6218a38638e5"
+            },
+            "vertices": [
+              {
+                "x": 730,
+                "y": 290
+              },
+              {
+                "x": 730,
+                "y": 250
+              },
+              {
+                "x": 760,
+                "y": 180
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "position": {
@@ -794,8 +869,8 @@
           },
           {
             "position": {
-              "x": 880,
-              "y": 180
+              "x": 900,
+              "y": 160
             },
             "size": {
               "width": 120,
@@ -913,6 +988,126 @@
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 710,
+              "y": 10
+            },
+            "size": {
+              "width": 160,
+              "height": 130
+            },
+            "attrs": {
+              "text": {
+                "text": "Serwer resetu hasła"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "c814e160-721e-4e4e-b570-766adb77ec37"
+                },
+                {
+                  "group": "right",
+                  "id": "5e46564f-20b7-4896-8b92-44d2adec336b"
+                },
+                {
+                  "group": "bottom",
+                  "id": "18e9a891-27b5-4157-bca0-6218a38638e5"
+                },
+                {
+                  "group": "left",
+                  "id": "1695ff1e-e75b-4904-b296-715db417879d"
+                }
+              ]
+            },
+            "id": "4b47f9ca-f291-499b-8af7-64c7d0ff2860",
+            "zIndex": 14,
+            "data": {
+              "type": "tm.Process",
+              "name": "Serwer resetu hasła",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
               "threats": []
             }
           }
