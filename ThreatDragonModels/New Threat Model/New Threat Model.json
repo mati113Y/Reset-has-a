@@ -711,6 +711,70 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Link zmiany hasła",
+              "description": "Dostarczenie linku z formularzem zmiany hasła",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Link zmiany hasła"
+            ],
+            "id": "162bfa7d-cf51-42ad-be0d-d79b62cb9c60",
+            "source": {
+              "cell": "eb532753-4bc5-4a0a-9d0e-fe87b5bc760d",
+              "port": "1695ff1e-e75b-4904-b296-715db417879d"
+            },
+            "target": {
+              "cell": "e6e32e5f-4fa4-4f4a-82dd-151b42f91206",
+              "port": "f98bc84c-8f05-4385-9e4e-267df3d58cc0"
+            },
+            "vertices": [
+              {
+                "x": 480,
+                "y": 10
+              },
+              {
+                "x": 170,
+                "y": 110
+              },
+              {
+                "x": 100,
+                "y": 190
+              },
+              {
+                "x": 100,
+                "y": 220
+              }
+            ]
+          },
+          {
             "position": {
               "x": 420,
               "y": 280
