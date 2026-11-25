@@ -304,6 +304,268 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
+              "name": "Żądanie zmiany hasła",
+              "description": "Przesłanie wiadomości na serwer",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Żądanie zmiany hasła"
+            ],
+            "id": "146d8542-7c54-413c-93f1-33125ee788b7",
+            "source": {
+              "x": 460,
+              "y": 200
+            },
+            "target": {
+              "x": 470,
+              "y": 320
+            },
+            "vertices": [
+              {
+                "x": 410,
+                "y": 220
+              },
+              {
+                "x": 410,
+                "y": 260
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Generowanie resetu \nhasła",
+              "description": "Żądanie wygenerowania nowego hasła",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Generowanie resetu \nhasła"
+            ],
+            "id": "08fb5b71-6632-47c4-a4bf-62f43ef8c82f",
+            "source": {
+              "cell": "9b41d39c-a061-43d4-97df-1bf6597772d5",
+              "port": "1695ff1e-e75b-4904-b296-715db417879d"
+            },
+            "target": {
+              "cell": "4b47f9ca-f291-499b-8af7-64c7d0ff2860",
+              "port": "18e9a891-27b5-4157-bca0-6218a38638e5"
+            },
+            "vertices": [
+              {
+                "x": 730,
+                "y": 290
+              },
+              {
+                "x": 730,
+                "y": 250
+              },
+              {
+                "x": 760,
+                "y": 180
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Zapisanie\nhasła",
+              "description": "Zapisanie hasła, daty, godziny ",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Zapisanie\nhasła"
+            ],
+            "id": "3ffb4c36-5bbc-4ec9-8c15-a430b2afbe30",
+            "source": {
+              "cell": "4b47f9ca-f291-499b-8af7-64c7d0ff2860",
+              "port": "5e46564f-20b7-4896-8b92-44d2adec336b"
+            },
+            "target": {
+              "cell": "9a8aeb88-0681-446f-aa68-d187fc8885f6",
+              "port": "61521e46-0548-40c3-a0be-b5df211803b9"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Żądanie zmiany hasła",
+              "description": "Wysłanie formularza zmiany hasła",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Żądanie zmiany hasła"
+            ],
+            "id": "195f8721-b2f7-41c6-be8a-20b94bd211ad",
+            "source": {
+              "cell": "e6e32e5f-4fa4-4f4a-82dd-151b42f91206",
+              "port": "2fd845c5-418a-48c2-958b-55f7cfba0481"
+            },
+            "target": {
+              "cell": "1308908f-797f-41e9-812d-f21f8873e37b",
+              "port": "1695ff1e-e75b-4904-b296-715db417879d"
+            },
+            "vertices": [
+              {
+                "x": 270,
+                "y": 170
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Weryfikacja użytkownika",
+              "description": "Przekazanie do weryfikacji konta",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Weryfikacja użytkownika"
+            ],
+            "id": "a2744ea4-a6cb-48ef-a6bd-bc1a98c5ddba",
+            "source": {
+              "cell": "7f9d8192-a567-4162-a795-fe129d85498d",
+              "port": "5e46564f-20b7-4896-8b92-44d2adec336b"
+            },
+            "target": {
+              "cell": "9b41d39c-a061-43d4-97df-1bf6597772d5",
+              "port": "1695ff1e-e75b-4904-b296-715db417879d"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
               "name": "Znajdź \nużytkownika",
               "description": "Wyszukanie danych w bazie ",
               "outOfScope": false,
@@ -333,58 +595,10 @@
               {
                 "x": 835,
                 "y": 270
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Żądanie zmiany hasła",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Żądanie zmiany hasła"
-            ],
-            "id": "195f8721-b2f7-41c6-be8a-20b94bd211ad",
-            "source": {
-              "cell": "e6e32e5f-4fa4-4f4a-82dd-151b42f91206",
-              "port": "2fd845c5-418a-48c2-958b-55f7cfba0481"
-            },
-            "target": {
-              "cell": "1308908f-797f-41e9-812d-f21f8873e37b",
-              "port": "1695ff1e-e75b-4904-b296-715db417879d"
-            },
-            "vertices": [
+              },
               {
-                "x": 270,
-                "y": 170
+                "x": 880,
+                "y": 210
               }
             ]
           },
@@ -464,63 +678,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Żądanie zmiany hasła",
-              "description": "Przesłanie wiadomości na serwer",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Żądanie zmiany hasła"
-            ],
-            "id": "146d8542-7c54-413c-93f1-33125ee788b7",
-            "source": {
-              "x": 460,
-              "y": 200
-            },
-            "target": {
-              "x": 470,
-              "y": 320
-            },
-            "vertices": [
-              {
-                "x": 410,
-                "y": 220
-              },
-              {
-                "x": 410,
-                "y": 260
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Weryfikacja użytkownika",
+              "name": "Wysłanie \nformularza",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -534,98 +692,23 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Weryfikacja użytkownika"
+              "Wysłanie \nformularza"
             ],
-            "id": "a2744ea4-a6cb-48ef-a6bd-bc1a98c5ddba",
+            "id": "63d8c85d-9829-4077-9923-14077e482a59",
             "source": {
-              "cell": "7f9d8192-a567-4162-a795-fe129d85498d",
+              "cell": "4b47f9ca-f291-499b-8af7-64c7d0ff2860",
+              "port": "1695ff1e-e75b-4904-b296-715db417879d"
+            },
+            "target": {
+              "cell": "eb532753-4bc5-4a0a-9d0e-fe87b5bc760d",
               "port": "5e46564f-20b7-4896-8b92-44d2adec336b"
             },
-            "target": {
-              "cell": "9b41d39c-a061-43d4-97df-1bf6597772d5",
-              "port": "1695ff1e-e75b-4904-b296-715db417879d"
-            },
             "vertices": [
               {
-                "x": 700,
-                "y": 390
+                "x": 710,
+                "y": 170
               }
             ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Generowanie resetu \nhasła",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Generowanie resetu \nhasła"
-            ],
-            "id": "08fb5b71-6632-47c4-a4bf-62f43ef8c82f",
-            "source": {
-              "cell": "9b41d39c-a061-43d4-97df-1bf6597772d5",
-              "port": "1695ff1e-e75b-4904-b296-715db417879d"
-            },
-            "target": {
-              "cell": "4b47f9ca-f291-499b-8af7-64c7d0ff2860",
-              "port": "18e9a891-27b5-4157-bca0-6218a38638e5"
-            },
-            "vertices": [
-              {
-                "x": 730,
-                "y": 290
-              },
-              {
-                "x": 730,
-                "y": 250
-              },
-              {
-                "x": 760,
-                "y": 180
-              }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
           },
           {
             "position": {
@@ -735,7 +818,7 @@
             "data": {
               "type": "tm.Process",
               "name": "API backend",
-              "description": "",
+              "description": "Przesłanie do API formularza",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -994,7 +1077,7 @@
           {
             "position": {
               "x": 710,
-              "y": 10
+              "y": 15
             },
             "size": {
               "width": 160,
@@ -1099,6 +1182,126 @@
             "data": {
               "type": "tm.Process",
               "name": "Serwer resetu hasła",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 580,
+              "y": 145
+            },
+            "size": {
+              "width": 110,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "E-mail"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "c814e160-721e-4e4e-b570-766adb77ec37"
+                },
+                {
+                  "group": "right",
+                  "id": "5e46564f-20b7-4896-8b92-44d2adec336b"
+                },
+                {
+                  "group": "bottom",
+                  "id": "18e9a891-27b5-4157-bca0-6218a38638e5"
+                },
+                {
+                  "group": "left",
+                  "id": "1695ff1e-e75b-4904-b296-715db417879d"
+                }
+              ]
+            },
+            "id": "eb532753-4bc5-4a0a-9d0e-fe87b5bc760d",
+            "zIndex": 15,
+            "data": {
+              "type": "tm.Process",
+              "name": "E-mail",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
