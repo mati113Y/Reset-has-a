@@ -68,6 +68,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -151,7 +152,6 @@
               ]
             },
             "id": "e6e32e5f-4fa4-4f4a-82dd-151b42f91206",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Użytkownik",
@@ -185,6 +185,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -268,7 +269,6 @@
               ]
             },
             "id": "1308908f-797f-41e9-812d-f21f8873e37b",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Aplikacja frontend",
@@ -795,6 +795,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -878,7 +879,6 @@
               ]
             },
             "id": "7f9d8192-a567-4162-a795-fe129d85498d",
-            "zIndex": 11,
             "data": {
               "type": "tm.Process",
               "name": "API backend",
@@ -915,6 +915,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -998,7 +999,6 @@
               ]
             },
             "id": "9b41d39c-a061-43d4-97df-1bf6597772d5",
-            "zIndex": 12,
             "data": {
               "type": "tm.Process",
               "name": "Uwierzytelnienie",
@@ -1038,6 +1038,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -1121,7 +1122,6 @@
               ]
             },
             "id": "9a8aeb88-0681-446f-aa68-d187fc8885f6",
-            "zIndex": 13,
             "data": {
               "type": "tm.Store",
               "name": "Baza danych",
@@ -1159,6 +1159,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -1242,7 +1243,6 @@
               ]
             },
             "id": "4b47f9ca-f291-499b-8af7-64c7d0ff2860",
-            "zIndex": 14,
             "data": {
               "type": "tm.Process",
               "name": "Serwer resetu hasła",
@@ -1279,6 +1279,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 15,
             "ports": {
               "groups": {
                 "top": {
@@ -1362,7 +1363,6 @@
               ]
             },
             "id": "eb532753-4bc5-4a0a-9d0e-fe87b5bc760d",
-            "zIndex": 15,
             "data": {
               "type": "tm.Process",
               "name": "E-mail",
