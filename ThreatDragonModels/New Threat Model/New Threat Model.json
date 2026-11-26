@@ -305,6 +305,58 @@
             "data": {
               "type": "tm.Flow",
               "name": "Żądanie zmiany hasła",
+              "description": "Wysłanie formularza zmiany hasła",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Żądanie zmiany hasła"
+            ],
+            "id": "195f8721-b2f7-41c6-be8a-20b94bd211ad",
+            "source": {
+              "cell": "e6e32e5f-4fa4-4f4a-82dd-151b42f91206",
+              "port": "2fd845c5-418a-48c2-958b-55f7cfba0481"
+            },
+            "target": {
+              "cell": "1308908f-797f-41e9-812d-f21f8873e37b",
+              "port": "1695ff1e-e75b-4904-b296-715db417879d"
+            },
+            "vertices": [
+              {
+                "x": 270,
+                "y": 170
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Żądanie zmiany hasła",
               "description": "Przesłanie wiadomości na serwer",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -337,165 +389,6 @@
               {
                 "x": 410,
                 "y": 260
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Generowanie resetu \nhasła",
-              "description": "Żądanie wygenerowania nowego hasła",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Generowanie resetu \nhasła"
-            ],
-            "id": "08fb5b71-6632-47c4-a4bf-62f43ef8c82f",
-            "source": {
-              "cell": "9b41d39c-a061-43d4-97df-1bf6597772d5",
-              "port": "1695ff1e-e75b-4904-b296-715db417879d"
-            },
-            "target": {
-              "cell": "4b47f9ca-f291-499b-8af7-64c7d0ff2860",
-              "port": "18e9a891-27b5-4157-bca0-6218a38638e5"
-            },
-            "vertices": [
-              {
-                "x": 730,
-                "y": 290
-              },
-              {
-                "x": 730,
-                "y": 250
-              },
-              {
-                "x": 760,
-                "y": 180
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Zapisanie\nhasła",
-              "description": "Zapisanie hasła, daty, godziny ",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Zapisanie\nhasła"
-            ],
-            "id": "3ffb4c36-5bbc-4ec9-8c15-a430b2afbe30",
-            "source": {
-              "cell": "4b47f9ca-f291-499b-8af7-64c7d0ff2860",
-              "port": "5e46564f-20b7-4896-8b92-44d2adec336b"
-            },
-            "target": {
-              "cell": "9a8aeb88-0681-446f-aa68-d187fc8885f6",
-              "port": "61521e46-0548-40c3-a0be-b5df211803b9"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Żądanie zmiany hasła",
-              "description": "Wysłanie formularza zmiany hasła",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Żądanie zmiany hasła"
-            ],
-            "id": "195f8721-b2f7-41c6-be8a-20b94bd211ad",
-            "source": {
-              "cell": "e6e32e5f-4fa4-4f4a-82dd-151b42f91206",
-              "port": "2fd845c5-418a-48c2-958b-55f7cfba0481"
-            },
-            "target": {
-              "cell": "1308908f-797f-41e9-812d-f21f8873e37b",
-              "port": "1695ff1e-e75b-4904-b296-715db417879d"
-            },
-            "vertices": [
-              {
-                "x": 270,
-                "y": 170
               }
             ]
           },
@@ -655,8 +548,119 @@
               {
                 "x": 990,
                 "y": 300
+              },
+              {
+                "x": 920,
+                "y": 370
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Generowanie resetu \nhasła",
+              "description": "Żądanie wygenerowania nowego hasła",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Generowanie resetu \nhasła"
+            ],
+            "id": "08fb5b71-6632-47c4-a4bf-62f43ef8c82f",
+            "source": {
+              "cell": "9b41d39c-a061-43d4-97df-1bf6597772d5",
+              "port": "1695ff1e-e75b-4904-b296-715db417879d"
+            },
+            "target": {
+              "cell": "4b47f9ca-f291-499b-8af7-64c7d0ff2860",
+              "port": "18e9a891-27b5-4157-bca0-6218a38638e5"
+            },
+            "vertices": [
+              {
+                "x": 730,
+                "y": 290
+              },
+              {
+                "x": 730,
+                "y": 250
+              },
+              {
+                "x": 760,
+                "y": 180
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Zapisanie\nhasła",
+              "description": "Zapisanie hasła, daty, godziny ",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Zapisanie\nhasła"
+            ],
+            "id": "3ffb4c36-5bbc-4ec9-8c15-a430b2afbe30",
+            "source": {
+              "cell": "4b47f9ca-f291-499b-8af7-64c7d0ff2860",
+              "port": "5e46564f-20b7-4896-8b92-44d2adec336b"
+            },
+            "target": {
+              "cell": "9a8aeb88-0681-446f-aa68-d187fc8885f6",
+              "port": "61521e46-0548-40c3-a0be-b5df211803b9"
+            },
+            "vertices": []
           },
           {
             "shape": "flow",
